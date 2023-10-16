@@ -202,6 +202,11 @@ p {
     background-color: orange;
 }
 
+.teamRight > div > div > p {
+    padding: 5px 0;
+    color: white;
+}
+
 .ninety {
     width: 90%;
     height: 100%;
