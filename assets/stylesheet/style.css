@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom style */
+
+main {
+    background-image: url('../media/homeBackground.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+.upperNav {
+    display: inline-block;
+    width: 10%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.upperNav img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding-right: 10px;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerLeft img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.lowerNav {
+    display: flex;
+    align-items: center;
+}
+
+.lowerNav > a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-top: 2px solid green;
+    color: green;
+}
+
+.homeCenter {
+    margin: 270px 0;
+    text-align: center;
+    color: white;
+}
+
+.homeCenter > h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+hr {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.homeCenter > p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.homeCenter a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: brown;
+    font-weight: bold;
+}
+
+.homeCircle {
+    text-align: center;
+}
+
+.homeCircle > span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 20px 5px;
+}
+
+#black {
+    background-color: black;
+}
